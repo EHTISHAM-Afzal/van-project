@@ -5,7 +5,7 @@ export default defineConfig({
 	plugins: [react()],	
 	build: {
 		rollupOptions: {
-		  external: ['react-icons/bs'],
+		  external: ['react-icons/bs',"firebase/app" , "firebase/firestore/lite"],
 		},
 	  },
 })
